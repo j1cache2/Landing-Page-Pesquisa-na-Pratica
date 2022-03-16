@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Brandon';
+    src: url(/fonts/brandon-grotesque-light.otf);
+    font-weight: normal;
+
+    font-family: 'Metropolis';
+    src: url(/fonts/metropolis-light.otf);
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #FFFFFF;
+    --cor1: #2B475E;
+    --cor2: #F27852;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Brandon';
+    --fonte-android: 'Metropolis';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
