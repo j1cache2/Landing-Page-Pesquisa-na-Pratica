@@ -1,10 +1,12 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'Brandon';
+    font-family: 'Coves';
     src: url(/fonts/brandon-grotesque-light.otf);
     font-weight: normal;
+}
 
+@font-face {
     font-family: 'Metropolis';
     src: url(/fonts/metropolis-light.otf);
     font-weight: normal;
@@ -14,14 +16,35 @@
     --cor0: #FFFFFF;
     --cor1: #2B475E;
     --cor2: #F27852;
+    --cor3: #F4F4F4;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Brandon';
-    --fonte-android: 'Metropolis';
+    --fonte-titulo: 'Coves';
+    --fonte-paragrafo: 'Metropolis';
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header {
+    padding: 62px;
+    color: var(--cor1);
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 56px;
+}
+
+header p {
+    font-family: var(--fonte-paragrafo);
+    font-size: 20px;
+}
+
+header p a {
+    text-decoration: none;
 }
