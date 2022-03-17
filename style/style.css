@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'Coves';
+    font-family: 'Brandon';
     src: url(/fonts/brandon-grotesque-light.otf);
     font-weight: normal;
 }
@@ -19,7 +19,7 @@
     --cor3: #F4F4F4;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-titulo: 'Coves';
+    --fonte-titulo: 'Brandon';
     --fonte-paragrafo: 'Metropolis';
 }
 
@@ -43,8 +43,21 @@ header h1 {
 header p {
     font-family: var(--fonte-paragrafo);
     font-size: 20px;
+    border-bottom: 0.4px solid var(--cor1);
+    padding: 20px;
 }
 
-header p a {
+header p h1, a {
     text-decoration: none;
+}
+
+main .div1 {
+    background-color: #2B475E;
+    text-align: center;
+    height: 213.83px;
+}
+
+main .div1 .span1 {
+    color: #FFFFFF;
+    font: var(--fonte-paragrafo);
 }
