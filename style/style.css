@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'Metropolis';
+    font-family: 'FAvenir';
     src: url(/fonts/metropolis-light.otf);
     font-weight: normal;
 }
@@ -20,7 +20,7 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-titulo: 'Brandon';
-    --fonte-paragrafo: 'Metropolis';
+    --fonte-paragrafo: 'FAvenir';
 }
 
 * {
@@ -35,9 +35,15 @@ header {
     text-align: center;
 }
 
+header p, h1, a {
+    text-decoration: none;
+    color: inherit;
+}
+
 header h1 {
     font-family: var(--fonte-titulo);
     font-size: 56px;
+    font-weight: 500;
 }
 
 header p {
@@ -47,17 +53,54 @@ header p {
     padding: 20px;
 }
 
-header p h1, a {
-    text-decoration: none;
-}
-
 main .div1 {
     background-color: #2B475E;
     text-align: center;
-    height: 213.83px;
+    height: 213px;
+    margin-top: -50px;
+    padding: 60px;
+    line-height: 2.5em;
+    /*letter-spacing: normal;*/
 }
 
 main .div1 .span1 {
-    color: #FFFFFF;
-    font: var(--fonte-paragrafo);
+    color: var(--cor0);
+    font-family: var(--fonte-paragrafo);
+    font-size: 27px;
+}
+
+main .div1 .span2 {
+    color: var(--cor2);
+    font-family: var(--fonte-titulo);
+    font-size: 63px;
+    font-weight: bold;
+}
+
+main .div2 {
+    width: 984px;
+    height: 653px;
+}
+
+main .div2 h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 40px;
+    font-weight: lighter;
+    color: var(--cor2);
+    text-align: left;
+}
+
+main .div2 p {
+    font-family: var(--fonte-paragrafo);
+    font-size: 15px;
+    font-weight: lighter;
+    color: var(--cor1);
+    width: 300px;
+    line-height: 1.875em;
+}
+
+main .div2 img {
+    width: 560px;
+    height: 620px;
+    object-fit: cover;
+    object-position: 50% 50%;
 }

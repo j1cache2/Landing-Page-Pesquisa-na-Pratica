@@ -1,0 +1,3 @@
+-> Ver como colocar fontes a partir do PC ok
+-> Eliminar configurações padrão do CSS	ok
+-: Configura texto de um lado e imagem do outro e adiantar resto do projeto.
