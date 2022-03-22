@@ -42,7 +42,7 @@ header p, h1, a {
 
 header h1 {
     font-family: var(--fonte-titulo);
-    font-size: 56px;
+    font-size: 51px;
     font-weight: 500;
     margin-top: -20px;
 }
@@ -159,7 +159,7 @@ main .div3 {
     text-align: left;
     width: 1349px;
     height: 867px;
-    margin-top: 22px;
+    margin-top: 20px;
     line-height: 2.5em;
     letter-spacing: 0.8px;
 }
@@ -170,15 +170,15 @@ main .div3 .container3text {
     background-color: var(--cor0);
     position: absolute;
     margin-top: 90px;
-    margin-left: 205px;
+    margin-left: 182px;
 }
 
 main .div3 .container3text h1 {
     font-family: var(--fonte-titulo);
-    font-size: 40px;
+    font-size: 36px;
     font-weight: bold;
     color: var(--cor2);
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 50px;
     width: 230.33px;
     height: 51px;
@@ -186,17 +186,17 @@ main .div3 .container3text h1 {
 
 main .div3 .container3text p {
     font-family: var(--fonte-paragrafo);
-    font-size: 12px;
+    font-size: 10px;
     font-weight: lighter;
     line-height: 1.875em;
     color: var(--cor1);
+    width: 304px;
     margin-top: 10px;
     margin-left: 50px;
 }
 
 main .div3 .container3text p a {
     display: inline-block;
-    margin-top: 20px;
     padding: 8px 20px;
     background-color: #fff;
     color: var(--cor1);
@@ -214,4 +214,16 @@ main .div3 .conteiner4image img {
     margin-top: 23px;
     margin-right: 204px;
     margin-bottom: 24px;
+}
+
+main .div4 {
+    background-color: var(--cor0);
+    height: 11px;
+    width: 1349px;
+}
+
+main .div5 {
+    background-color: var(--cor3);
+    width: 1349px;
+    height: 843px;
 }
