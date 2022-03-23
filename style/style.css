@@ -166,7 +166,7 @@ main .div3 {
 
 main .div3 .container3text {
     width: 432px;
-    height: 549px;
+    height: 552px;
     background-color: var(--cor0);
     position: absolute;
     margin-top: 90px;
@@ -186,7 +186,7 @@ main .div3 .container3text .title h1 {
 
 main .div3 .container3text .paragraphs p {
     font-family: var(--fonte-paragrafo);
-    font-size: 10px;
+    font-size: 12px;
     font-weight: lighter;
     line-height: 1.875em;
     color: var(--cor1);
@@ -232,7 +232,68 @@ main .div4 {
 }
 
 main .div5 {
-    background-color: var(--cor3);
     width: 1349px;
     height: 843px;
+    background-color: var(--cor3);
+}
+
+main .div5 .container5text {
+    width: 460px;
+    height: 707px;
+    background-color: var(--cor0);
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 205px;
+}
+
+main .div5 .container5text .title h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--cor2);
+    margin-top: 95px;
+    margin-left: 52px;
+    width: 297px;
+    height: 51px;
+}
+
+main .div5 .container5text .paragraphs p {
+    font-family: var(--fonte-paragrafo);
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 1.875em;
+    color: var(--cor1);
+    width: 304px;
+    margin-top: 10px;
+    margin-left: 52px;
+}
+
+main .div5 .container5text .button p a {
+    font-family: var(--fonte-paragrafo);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cor1);
+    display: inline-block;
+    align-items: center;
+    padding: 10px 12px;
+    margin-top: 30px;
+    margin-left: 52px;
+    border: 1px solid var(--cor1);
+    border-radius: 100px;
+}
+
+main .div5 .container5text .button p a:hover {
+    color: var(--cor0);
+    background-color: var(--cor1);
+    transition: 0.4s;
+}
+
+main .div5 .container5image img {
+    width: 560px;
+    height: 700px;
+    object-fit: cover;
+    float: right;
+    margin-top: 23px;
+    margin-right: 204px;
+    margin-bottom: 24px;
 }
