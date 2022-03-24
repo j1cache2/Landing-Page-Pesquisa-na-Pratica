@@ -1,7 +1,5 @@
--> Ver como colocar fontes a partir do PC ok
--> Eliminar configurações padrão do CSS	ok
-
 -> Countdown nas landing pages
 -> Slide tipo Coca-Cola
 -> Formulário que possa ser preenchido
--> Q&A automático e manual
+-> Q&A/FAQ automático e manual
+-> Ver otimização da página com margens e preparar para todas as telas
