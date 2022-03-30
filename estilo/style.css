@@ -89,7 +89,7 @@ main .div2 {
     height: 653px;
 }
 
-main .div2 .texto {
+main .div2 .container1texto {
     width: 460px;
     height: 492px;
     background-color: var(--cor0);
@@ -99,7 +99,7 @@ main .div2 .texto {
     margin-left: 205px;
 }
 
-main .div2 .texto h1 {
+main .div2 .container1texto h1 {
     font-family: var(--fonte-titulo);
     font-size: 38px;
     font-weight: bold;
@@ -111,7 +111,7 @@ main .div2 .texto h1 {
     height: 40px;
 }
 
-main .div2 .texto p {
+main .div2 .container1texto p {
     font-family: var(--fonte-paragrafo);
     font-size: 14px;
     font-weight: lighter;
@@ -122,7 +122,7 @@ main .div2 .texto p {
     margin-left: 60px;
 }
 
-main .div2 .imagem img {
+main .div2 .div2imagem img {
     width: 560px;
     height: 620px;
     object-fit: cover;
