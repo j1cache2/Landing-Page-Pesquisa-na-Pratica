@@ -309,8 +309,12 @@ footer {
 
 @media (max-width: 990px) {
 
+    header .containerhead {
+        margin: auto;
+    }
+
     header {
-        padding: 62px;
+        /*padding: 62px;*/
         color: var(--cor1);
         text-align: center;
     }
@@ -333,6 +337,14 @@ footer {
         padding: 8px;
     }
 
+    header .divline {
+        background-color: var(--cor1);
+        max-width: 941px;
+        height: 0.4px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
     main .div1 {
         background-color: #2B475E;
         height: 374px;
@@ -342,6 +354,7 @@ footer {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        margin-top: inherit;
     }
 
     main .div1 .span1 {
@@ -484,4 +497,97 @@ footer {
         margin-bottom: 24px;
     }
 
+
+
+
+
+
+
+
+    main .div4 {
+        height: 45px;
+        background-color: var(--cor0);
+    }
+
+    main .redesocial .container3 {
+        margin: auto;
+        width: 320px;
+        align-items: center;
+        text-align: center;
+    }
+
+    main .redesocial {
+        height: 843px;
+        background-color: var(--cor3);
+    }
+
+    main .redesocial .texto {
+        width: 300px;
+        height: 578.891px;
+        background-color: var(--cor0);
+        position: absolute;
+        margin-top: 84px;
+        color: var(--cor1);
+    }
+
+    main .redesocial .texto .titulo h3 {
+        font-family: var(--fonte-titulo);
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 95px;
+        width: 297px;
+        height: 51px;
+    }
+
+    main .redesocial .texto .paragrafos p {
+        font-family: var(--fonte-paragrafo);
+        font-size: 14px;
+        font-weight: lighter;
+        line-height: 1.875em;
+        width: 304px;
+        margin-top: 10px;
+    }
+
+    main .redesocial .texto .paragrafos .plink {
+        text-decoration: underline;
+    }
+
+    main .redesocial .texto .botao p a {
+        font-family: var(--fonte-paragrafo);
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--cor1);
+        display: inline-block;
+        align-items: center;
+        padding: 13px 13px;
+        margin-top: 58px;
+        border: 1px solid var(--cor1);
+        border-radius: 100px;
+    }
+
+    main .redesocial .texto .botao p a:hover {
+        color: var(--cor0);
+        background-color: var(--cor1);
+        transition: 0.4s;
+    }
+
+    main .redesocial .imagem3 img {
+        width: 340px;
+        height: 340px;
+        object-fit: cover;
+        margin-top: 17px;
+        margin-bottom: 24px;
+    }
+
+
+
+
+    footer {
+        background-color: var(--cor1);
+        color: var(--cor0);
+        font-family: var(--fonte-paragrafo);
+        font-size: 12px;
+        padding: 5px;
+        text-align: center;
+    }
 }
