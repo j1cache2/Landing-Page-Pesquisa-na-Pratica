@@ -309,4 +309,179 @@ footer {
 
 @media (max-width: 990px) {
 
+    header {
+        padding: 62px;
+        color: var(--cor1);
+        text-align: center;
+    }
+
+    header p, h1, a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    header h1 {
+        font-family: var(--fonte-titulo);
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: -20px;
+    }
+
+    header p {
+        font-family: var(--fonte-paragrafo);
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    main .div1 {
+        background-color: #2B475E;
+        height: 374px;
+        line-height: 2.5em;
+        letter-spacing: 0.8px;
+        color: var(--cor0);
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    main .div1 .span1 {
+        font-family: var(--fonte-paragrafo);
+        font-size: 40px;
+    }
+
+    main .div1 .span2 {
+        font-family: var(--fonte-titulo);
+        font-size: 29px;
+        font-weight: bold;
+        width: 220px;
+        color: var(--cor0);
+    }
+
+    main .sobreoautor .container1 {
+        margin: auto;
+        width: 340px;
+    }
+
+    main .sobreoautor {
+        margin: auto;
+        height: 833.641px;
+        align-items: center;
+        text-align: center;
+    }
+
+    main .sobreoautor .texto {
+        width: 300px;
+        height: 483.641px;
+        background-color: var(--cor0);
+        position: absolute;
+        color: var(--cor1);
+        margin-left: 20px;
+    }
+
+    main .sobreoautor .texto h1 {
+        font-family: var(--fonte-titulo);
+        font-size: 24px;
+        font-weight: bold;
+        width: 130.61px;
+        height: 30px;
+    }
+
+    main .sobreoautor .texto p {
+        font-family: var(--fonte-paragrafo);
+        font-size: 15px;
+        font-weight: lighter;
+        width: 300px;
+        line-height: 1.875em;
+        margin-left: 0px;
+    }
+
+    main .sobreoautor .imagem1 img {
+        width: 340px;
+        height: 340px;
+        object-fit: cover;
+        margin-top: 45px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    main .curriculo .container2 {
+        margin: auto;
+        width: 320px;
+        align-items: center;
+        text-align: center;
+    }
+
+    main .curriculo {
+        background-color: #2B475E;
+        text-align: left;
+        height: 884.891px;
+        margin-top: 23px;
+        line-height: 2.5em;
+        letter-spacing: 0.8px;
+    }
+
+    main .curriculo .texto {
+        width: 300px;
+        height: 534.891px;
+        background-color: var(--cor0);
+        position: absolute;
+        margin-top: 90px;
+        color: var(--cor1);
+    }
+
+    main .curriculo .texto .titulo h2 {
+        font-family: var(--fonte-titulo);
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 46px;
+        width: 138.2px;
+        height: 30px;
+    }
+
+    main .curriculo .texto .paragrafos p {
+        font-family: var(--fonte-paragrafo);
+        font-size: 8px;
+        font-weight: lighter;
+        line-height: 2.5em;
+        width: 260px;
+        margin-top: 30px;
+    }
+
+    main .curriculo .texto .botao p a {
+        font-family: var(--fonte-paragrafo);
+        font-size: 12px;
+        font-weight: 100;
+        color: var(--cor1);
+        display: inline-block;
+        align-items: center;
+        padding: 0px 16px;
+        margin-top: 28px;
+        margin: auto;
+        border: 1px solid var(--cor1);
+        border-radius: 100px;
+    }
+
+    main .curriculo .texto p a:hover {
+        color: var(--cor0);
+        background-color: var(--cor1);
+        transition: 0.4s;
+    }
+
+    main .curriculo .imagem2 img {
+        width: 340px;
+        height: 340px;
+        object-fit: cover;
+        margin-top: 23px;
+        margin-bottom: 24px;
+    }
+
 }
