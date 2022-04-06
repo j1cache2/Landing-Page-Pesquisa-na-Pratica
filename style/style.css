@@ -378,7 +378,7 @@ footer {
     }
 
     main .sobreoautor .texto {
-        width: 360px;
+        width: 356px;
         height: 390px;
         background-color: var(--cor0);
         position: absolute;
@@ -410,7 +410,7 @@ footer {
     }
 
     main .sobreoautor .imagem1 img {
-        width: 420px;
+        width: 435px;
         height: 490px;
         object-fit: cover;
         float: right;
@@ -433,7 +433,7 @@ footer {
     }
 
     main .curriculo .texto {
-        width: 340px;
+        width: 330px;
         height: 430px;
         background-color: var(--cor0);
         position: absolute;
@@ -457,8 +457,8 @@ footer {
         font-weight: lighter;
         line-height: 2.4em;
         color: var(--cor1);
-        width: 250px;
-        margin-top: 20px;
+        width: 247px;
+        margin-top: 15px;
         margin-left: 35px;
     }
 
@@ -467,14 +467,16 @@ footer {
         font-size: 10px;
         font-weight: 100;
         color: var(--cor1);
-        display: inline-block;
-        /*display: flex;*/
+        display: flex;
+        justify-content: center;
         align-items: center;
-        padding: 0px 10px;
+        align-items: center;
         margin-left: 35px;
         border: 1px solid var(--cor1);
         border-radius: 100px;
-        height: 30px;
+        height: 40px;
+        width: 138px;
+        margin-top: 20px;
     }
 
     main .curriculo .texto p a:hover {
@@ -492,106 +494,114 @@ footer {
         margin-bottom: 20px;
     }
 
-
-
-
-
-
-
-
-
-
-    /*main .curriculo .container2 {
-        margin: auto;
-        width: 320px;
-        align-items: center;
-        text-align: center;
-    }
-
-    main .curriculo {
-        background-color: #2B475E;
-        text-align: left;
-        height: 884.891px;
-        margin-top: 23px;
-        line-height: 2.5em;
-        letter-spacing: 0.8px;
-    }
-
-    main .curriculo .texto {
-        width: 300px;
-        height: 534.891px;
-        background-color: var(--cor0);
-        position: absolute;
-        margin-top: 90px;
-        color: var(--cor1);
-    }
-
-    main .curriculo .texto .titulo h2 {
-        font-family: var(--fonte-titulo);
-        font-size: 24px;
-        font-weight: bold;
-        margin-top: 46px;
-        width: 138.2px;
-        height: 30px;
-    }
-
-    main .curriculo .texto .paragrafos p {
-        font-family: var(--fonte-paragrafo);
-        font-size: 8px;
-        font-weight: lighter;
-        line-height: 2.5em;
-        width: 260px;
-        margin-top: 30px;
-    }
-
-    main .curriculo .texto .botao p a {
-        font-family: var(--fonte-paragrafo);
-        font-size: 12px;
-        font-weight: 100;
-        color: var(--cor1);
-        display: inline-block;
-        align-items: center;
-        padding: 0px 16px;
-        margin-top: 28px;
-        margin: auto;
-        border: 1px solid var(--cor1);
-        border-radius: 100px;
-    }
-
-    main .curriculo .texto p a:hover {
-        color: var(--cor0);
-        background-color: var(--cor1);
-        transition: 0.4s;
-    }
-
-    main .curriculo .imagem2 img {
-        width: 340px;
-        height: 340px;
-        object-fit: cover;
-        margin-top: 23px;
-        margin-bottom: 24px;
-    }*/
-
-
-
-
-
-
-
-
     main .div4 {
-        height: 45px;
+        height: 10px;
         background-color: var(--cor0);
     }
 
     main .redesocial .container3 {
         margin: auto;
-        width: 320px;
+        width: 728px;
         align-items: center;
         text-align: center;
     }
 
+    main .redesocial .container3 {
+        margin: auto;
+        width: 728px;
+    }
+
     main .redesocial {
+        height: 660px;
+        background-color: var(--cor3);
+    }
+
+    main .redesocial .texto {
+        width: 356px;
+        height: 390px;
+        background-color: var(--cor0);
+        position: absolute;
+        margin-top: 70px;
+        margin-bottom: 138px;
+    }
+
+    main .redesocial .texto .titulo h3 {
+        font-family: var(--fonte-titulo);
+        font-size: 32px;
+        font-weight: bold;
+        color: var(--cor2);
+        margin-top: 40px;
+        margin-left: 32px;
+        width: 240px;
+        height: 40px;
+    }
+
+    main .redesocial .texto .paragrafos p {
+        font-family: var(--fonte-paragrafo);
+        font-size: 11px;
+        font-weight: lighter;
+        color: var(--cor1);
+        width: 220px;
+        line-height: 2em;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+
+    main .redesocial .texto .paragrafos .plink {
+        text-decoration: underline;
+    }
+
+    main .redesocial .texto .botao p a {
+        font-family: var(--fonte-paragrafo);
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--cor1);
+        display: inline-block;
+        align-items: center;
+        padding: 13px 13px;
+        margin-top: 58px;
+        margin-left: 52px;
+        border: 1px solid var(--cor1);
+        border-radius: 100px;
+    }
+
+    main .redesocial .texto .botao p a:hover {
+        color: var(--cor0);
+        background-color: var(--cor1);
+        transition: 0.4s;
+    }
+
+    main .redesocial .imagem3 img {
+        width: 435px;
+        height: 540px;
+        object-fit: cover;
+        float: right;
+        margin-top: 17px;
+        margin-bottom: 24px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*main .redesocial {
         height: 843px;
         background-color: var(--cor3);
     }
@@ -652,7 +662,7 @@ footer {
         object-fit: cover;
         margin-top: 17px;
         margin-bottom: 24px;
-    }
+    }*/
 
 
 
