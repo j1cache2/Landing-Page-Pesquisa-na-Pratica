@@ -888,7 +888,7 @@ footer {
     }
 }
 
-@media (max-width: 539px) {
+@media(max-width: 539px) {
 
     header .containerhead {
         margin: auto;
